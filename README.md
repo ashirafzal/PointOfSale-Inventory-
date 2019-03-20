@@ -3,6 +3,27 @@
 
 ## Project is in progress .The project is in initial state
 
+## DB ERD Screenshots
+
+![sc1db](https://user-images.githubusercontent.com/35813537/54721964-a8878080-4b20-11e9-87b7-cd8ef431cd76.PNG)
+
+![sc2db](https://user-images.githubusercontent.com/35813537/54721966-a9201700-4b20-11e9-829c-c56c8da1ce44.PNG)
+
+![sc3db](https://user-images.githubusercontent.com/35813537/54721967-a9201700-4b20-11e9-8cf6-4590fecce184.PNG)
+
+![sc4db](https://user-images.githubusercontent.com/35813537/54721968-a9201700-4b20-11e9-8b7e-c00209a6b831.PNG)
+
+
+## Tables record will look like this 
+
+![tablesc1](https://user-images.githubusercontent.com/35813537/54722057-c5bc4f00-4b20-11e9-85ca-cd0a8d8f615d.PNG)
+
+![tablesc2](https://user-images.githubusercontent.com/35813537/54722059-c654e580-4b20-11e9-904f-0a7a86fdd8c0.PNG)
+
+![tablesc3](https://user-images.githubusercontent.com/35813537/54722061-c654e580-4b20-11e9-8641-23ab6a1b189c.PNG)
+
+
+
 ## ADOBE XD Initial Design Export Images
 
 ![Web 1920 – 1](https://user-images.githubusercontent.com/35813537/54645334-def9c880-4a58-11e9-83ab-0b0e5a22f8f9.png)
