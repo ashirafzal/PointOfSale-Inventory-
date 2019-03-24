@@ -50,4 +50,11 @@
 
 ![da2](https://user-images.githubusercontent.com/35813537/54722276-63b01980-4b21-11e9-9a58-a6cc3b248f8a.PNG)
 
+## Employee Panel 
+![sc1](https://user-images.githubusercontent.com/35813537/54873212-e8539f80-4d8e-11e9-84c4-6bc92f5d7a15.PNG)
 
+## Administrator Panel
+![sc2](https://user-images.githubusercontent.com/35813537/54873213-f99cac00-4d8e-11e9-8aca-8e4a45bab35b.PNG)
+
+## Cashier Register
+![sc3](https://user-images.githubusercontent.com/35813537/54873218-11743000-4d8f-11e9-804d-cfc2170408cd.PNG)
