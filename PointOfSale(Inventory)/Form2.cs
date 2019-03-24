@@ -10,39 +10,40 @@ using System.Windows.Forms;
 
 namespace PointOfSale_Inventory_
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void gradientPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
         {
             MaximizeBox = false;
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void tvExpression_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnDel_Click(object sender, EventArgs e)
-        {
-            String processor;
-            processor = textbox1.Text;
-            processor = processor.Substring(0, processor.Length - 1);
-            textbox1.Text = processor;
 
         }
 
@@ -55,7 +56,6 @@ namespace PointOfSale_Inventory_
         {
             writeExpression("8");
         }
-
 
         void writeExpression(String value)
         {
@@ -105,17 +105,26 @@ namespace PointOfSale_Inventory_
             writeExpression("0");
         }
 
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            String processor;
+            processor = textbox1.Text;
+            processor = processor.Substring(0, processor.Length - 1);
+            textbox1.Text = processor;
+        }
+
         private void btnEnter_Click(object sender, EventArgs e)
         {
-
             try
             {
                 int a = Convert.ToInt16(textbox1.Text);
 
                 if (a == 8162)
                 {
+                    this.Hide();
                     Form3 form3 = new Form3();
                     form3.Show();
+                    
                 }
                 else
                 {
@@ -135,15 +144,8 @@ namespace PointOfSale_Inventory_
                 string title = "Wrong Input";
                 string message = "LoginID Field can't be Empty";
                 MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
-                MessageBox.Show(message, title,buttons,MessageBoxIcon.Warning);
+                MessageBox.Show(message, title, buttons, MessageBoxIcon.Warning);
             }
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Show();            
         }
     }
 }
