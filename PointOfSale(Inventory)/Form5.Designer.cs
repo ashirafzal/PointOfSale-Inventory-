@@ -37,6 +37,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
@@ -93,7 +94,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btnNine = new System.Windows.Forms.Button();
-            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
             this.gradientPanel1.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -198,7 +198,7 @@
             this.tableLayoutPanel13.RowCount = 2;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(458, 118);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(459, 118);
             this.tableLayoutPanel13.TabIndex = 0;
             // 
             // label17
@@ -244,6 +244,24 @@
             this.label14.Size = new System.Drawing.Size(94, 20);
             this.label14.TabIndex = 0;
             this.label14.Text = "Cashier ID";
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel14.BackColor = System.Drawing.Color.DarkGray;
+            this.tableLayoutPanel14.ColumnCount = 1;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(459, 0);
+            this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 1;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 118F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(300, 118);
+            this.tableLayoutPanel14.TabIndex = 1;
             // 
             // tableLayoutPanel4
             // 
@@ -461,7 +479,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(207, 218);
+            this.textBox4.Location = new System.Drawing.Point(207, 220);
             this.textBox4.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -471,7 +489,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(207, 119);
+            this.textBox3.Location = new System.Drawing.Point(207, 120);
             this.textBox3.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -482,7 +500,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(25, 223);
+            this.label13.Location = new System.Drawing.Point(25, 225);
             this.label13.Margin = new System.Windows.Forms.Padding(25, 25, 0, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(137, 20);
@@ -504,7 +522,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(25, 124);
+            this.label11.Location = new System.Drawing.Point(25, 125);
             this.label11.Margin = new System.Windows.Forms.Padding(25, 25, 0, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(110, 20);
@@ -913,7 +931,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.23547F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.88447F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.67697F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 251F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
             this.tableLayoutPanel2.Controls.Add(this.button11, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.button10, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.button9, 0, 0);
@@ -939,10 +957,10 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(762, 1);
+            this.button11.Location = new System.Drawing.Point(759, 1);
             this.button11.Margin = new System.Windows.Forms.Padding(1);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(307, 69);
+            this.button11.Size = new System.Drawing.Size(306, 69);
             this.button11.TabIndex = 9;
             this.button11.Text = "VIEW";
             this.button11.UseVisualStyleBackColor = false;
@@ -957,10 +975,10 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(1071, 1);
+            this.button10.Location = new System.Drawing.Point(1067, 1);
             this.button10.Margin = new System.Windows.Forms.Padding(1);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(277, 69);
+            this.button10.Size = new System.Drawing.Size(276, 69);
             this.button10.TabIndex = 8;
             this.button10.Text = "BILL";
             this.button10.UseVisualStyleBackColor = false;
@@ -975,10 +993,10 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(1350, 1);
+            this.button9.Location = new System.Drawing.Point(1345, 1);
             this.button9.Margin = new System.Windows.Forms.Padding(1);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(251, 69);
+            this.button9.Size = new System.Drawing.Size(256, 69);
             this.button9.TabIndex = 7;
             this.button9.Text = "RECIEPT";
             this.button9.UseVisualStyleBackColor = false;
@@ -996,7 +1014,7 @@
             this.button8.Location = new System.Drawing.Point(1, 1);
             this.button8.Margin = new System.Windows.Forms.Padding(1);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(221, 69);
+            this.button8.Size = new System.Drawing.Size(220, 69);
             this.button8.TabIndex = 6;
             this.button8.Text = "ADD";
             this.button8.UseVisualStyleBackColor = false;
@@ -1011,10 +1029,10 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(224, 1);
+            this.button7.Location = new System.Drawing.Point(223, 1);
             this.button7.Margin = new System.Windows.Forms.Padding(1);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(263, 69);
+            this.button7.Size = new System.Drawing.Size(262, 69);
             this.button7.TabIndex = 5;
             this.button7.Text = "UPDATE";
             this.button7.UseVisualStyleBackColor = false;
@@ -1029,10 +1047,10 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(489, 1);
+            this.button6.Location = new System.Drawing.Point(487, 1);
             this.button6.Margin = new System.Windows.Forms.Padding(1);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(271, 69);
+            this.button6.Size = new System.Drawing.Size(270, 69);
             this.button6.TabIndex = 4;
             this.button6.Text = "DELETE";
             this.button6.UseVisualStyleBackColor = false;
@@ -1048,7 +1066,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.14706F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.94118F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.66176F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 239F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 242F));
             this.tableLayoutPanel1.Controls.Add(this.button5, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button4, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button3, 0, 0);
@@ -1060,7 +1078,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 45F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1602, 45);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -1074,7 +1092,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(768, 1);
+            this.button5.Location = new System.Drawing.Point(767, 1);
             this.button5.Margin = new System.Windows.Forms.Padding(1);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(310, 43);
@@ -1092,10 +1110,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(1080, 1);
+            this.button4.Location = new System.Drawing.Point(1079, 1);
             this.button4.Margin = new System.Windows.Forms.Padding(1);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(279, 43);
+            this.button4.Size = new System.Drawing.Size(278, 43);
             this.button4.TabIndex = 5;
             this.button4.Text = "INVENTORY";
             this.button4.UseVisualStyleBackColor = false;
@@ -1110,10 +1128,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(1361, 1);
+            this.button3.Location = new System.Drawing.Point(1359, 1);
             this.button3.Margin = new System.Windows.Forms.Padding(1);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(240, 43);
+            this.button3.Size = new System.Drawing.Size(242, 43);
             this.button3.TabIndex = 4;
             this.button3.Text = "HELP";
             this.button3.UseVisualStyleBackColor = false;
@@ -1149,7 +1167,7 @@
             this.button1.Location = new System.Drawing.Point(226, 1);
             this.button1.Margin = new System.Windows.Forms.Padding(1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(266, 43);
+            this.button1.Size = new System.Drawing.Size(265, 43);
             this.button1.TabIndex = 2;
             this.button1.Text = "CLOCK OUT";
             this.button1.UseVisualStyleBackColor = false;
@@ -1164,31 +1182,13 @@
             this.btnNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNine.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNine.ForeColor = System.Drawing.Color.Black;
-            this.btnNine.Location = new System.Drawing.Point(494, 1);
+            this.btnNine.Location = new System.Drawing.Point(493, 1);
             this.btnNine.Margin = new System.Windows.Forms.Padding(1);
             this.btnNine.Name = "btnNine";
             this.btnNine.Size = new System.Drawing.Size(272, 43);
             this.btnNine.TabIndex = 1;
             this.btnNine.Text = "CUSTOMER CHECK";
             this.btnNine.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel14
-            // 
-            this.tableLayoutPanel14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel14.BackColor = System.Drawing.Color.DarkGray;
-            this.tableLayoutPanel14.ColumnCount = 1;
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(458, 0);
-            this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-            this.tableLayoutPanel14.RowCount = 1;
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(301, 118);
-            this.tableLayoutPanel14.TabIndex = 1;
             // 
             // Form5
             // 

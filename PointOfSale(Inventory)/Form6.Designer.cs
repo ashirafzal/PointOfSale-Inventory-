@@ -124,7 +124,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form6";
+            this.Text = "Choose Working status";
             this.Load += new System.EventHandler(this.Form6_Load);
             this.gradientPanel1.ResumeLayout(false);
             this.gradientPanel1.PerformLayout();
