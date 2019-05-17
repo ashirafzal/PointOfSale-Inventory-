@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PointOfSale_Inventory_
 {
-    public partial class Form6 : Form
+    public partial class Inventory : Form
     {
-        public Form6()
+        public Inventory()
         {
             InitializeComponent();
-        }
-
-        private void Form6_Load(object sender, EventArgs e)
-        {
-            MaximizeBox = false;
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PointOfSale_Inventory_
 {
-    public partial class Form1 : Form
+    public partial class EntryForm : Form
     {
-        public Form1()
+        public EntryForm()
         {
             InitializeComponent();
         }
@@ -114,8 +114,7 @@ namespace PointOfSale_Inventory_
 
                 if (a == 8162)
                 {
-                    Form3 form3 = new Form3();
-                    form3.Show();
+                    
                 }
                 else
                 {
@@ -142,8 +141,7 @@ namespace PointOfSale_Inventory_
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
-            form2.Show();            
+                       
         }
     }
 }

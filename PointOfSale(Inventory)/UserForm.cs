@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PointOfSale_Inventory_
 {
-    public partial class Form4 : Form
+    public partial class UserForm : Form
     {
-        public Form4()
+        public UserForm()
         {
             InitializeComponent();
         }
